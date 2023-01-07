@@ -85,8 +85,10 @@ body{
     color: #444343;
     margin-bottom: 8px;
     list-style: none;
-    
     list-style-position: inside;
+}
+.green{
+    color: #16D887;
 }
 /* container */
 .container{
