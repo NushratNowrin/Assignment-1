@@ -59,6 +59,8 @@ body{
 .failure-descripton{
     height: 100%;
     align-items: center;
+    margin-top: 200px;
+    margin-left: 50px;
 }
 .failure-heading{
     font-weight: 700;
@@ -86,6 +88,7 @@ body{
     margin-bottom: 8px;
     list-style: none;
     
+    /* using svg file here. This is the first time I use svg file in any css, I learned it from YouTube today */
     list-style-position: inside;
 }
 
@@ -96,4 +99,30 @@ body{
     line-height: 47px;
     text-align: center;
     color: #151414;
+    margin-bottom: 50px;
+}
+.plan{
+    margin: 50px 230px;
+    justify-content: space-between;
+}
+.plan div{
+    text-align: center;
+}
+.plan div img{
+    margin-bottom: 24px;
+    height: 93px;
+}
+.plan div h2{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 24px;
+}
+.plan div p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    margin-bottom: 20px;
 }
