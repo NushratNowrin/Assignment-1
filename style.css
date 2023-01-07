@@ -9,6 +9,9 @@ body{
 .primary-color{
     color: #005FAC;
 }
+.flex{
+    display: flex;
+}
 /* Banner Design */
 .banner{
     vertical-align: middle;
@@ -46,4 +49,51 @@ body{
 }
 .banner-btn a{
     text-decoration: none;
+}
+
+/* Failure section */
+.failure{
+    width: 1066px;
+    margin: 150px auto;
+}
+.failure-descripton{
+    height: 100%;
+    align-items: center;
+}
+.failure-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failure-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+
+}
+.failure-list{
+
+}
+.failure-list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+    list-style: none;
+    
+    list-style-position: inside;
+}
+
+/*My plan*/
+.plan-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
 }
