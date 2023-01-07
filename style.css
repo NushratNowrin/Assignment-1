@@ -168,3 +168,63 @@ footer{
     background-color: #151414;
     margin-top: 100px;
 }
+footer section{
+    padding: 130px 230px;
+    justify-content: space-between;
+}
+.footer-column1{
+    width: 50%;
+}
+.footer-column1 h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-column1 p, .email, .phone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-right: 120px;
+    margin-bottom: 24px;
+}
+.footer-icon div{
+    margin-right: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer-column2 div h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.email-form{
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 16px;
+}
+.subscribe-form{
+    background: #005FAC;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
